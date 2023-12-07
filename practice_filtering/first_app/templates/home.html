@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Name : {{name}}</h1>
+    <h1>Age : {{age}}</h1>
+    <h1>Address : {{city}}</h1>
+    <h2>Courses : {{lerning}}</h2>
+
+    <h3>{{ lerning | length }}</h3>
+    <h3>{{ lerning | add:" 2" }}</h3>
+    <h3>{{ lerning | addslashes }}</h3>
+    <h3>{{ lerning | capfirst }}</h3>
+    <h3>{{ lerning | center:"15" }}</h3>
+
+    <h3>{{ date | date:"D d M Y" }}</h3>
+    <h3>{{ date | time:"H:i" }}</h3>
+
+    <h3>{{ lerning | linenumbers }}</h3>
+    <h3>{{ lerning | upper }}</h3>
+
+    <h1>This is first app page</h1>
+</body>
+</html>
