@@ -12,5 +12,38 @@
 
 
     <h1>Home page</h1>
+    <h1>Name : {{name}}</h1>
+    <h1>Age : {{age}}</h1>
+    <h1>City : {{city}}</h1>
+    <h1>Lerning : {{lerning}}</h1>
+    <h1>{{ lerning | length }}</h1>
+    <h1>{{ lerning | add:"2" }}</h1>
+    <h1>{{ lerning | addslashes }}</h1>
+    <h1>{{ lerning | capfirst }}</h1>
+    <h1>"{{ lerning | center:"15" }}"</h1>
+    <h1>{{ lerning | cut:" " }}</h1>
+    <h1>{{ date | date:"D d M Y" }}</h1>
+    <h1>{{ lerning | default:"nothing" }}</h1>
+    <h1>{{ name | dictsort:"name" }}</h1>
+    <h1>{{ lerning | escape }}</h1>
+    <h1>{{ name | first }}</h1>
+    <h1>{{ name | join:" // " }}</h1>
+    <h1>{{ name | last }}</h1>
+    <h1>{{ name | length }}</h1>
+    <h1>{{ lerning | linenumbers }}</h1>
+    <h1>{{ lerning | lower }}</h1>
+    <h1>{{ name | make_list }}</h1>
+    <h1>{{ name | random }}</h1>
+    <h1>{{ lerning | slice:":5" }}</h1>
+    <h3>{{ name | unordered_list }}</h3>
+    <h1>{{ name | upper }}</h1>
+    <h1>{{ lerning | wordcount }}</h1>
+    <h1>{{ date | date:"D d M Y" }}</h1>
+    <h1>{{ lerning | add:"5" }}</h1>
+    <h1>{{ lerning | cut:" " }}</h1>
+    <h1>{{ date | time:"H:i" }}</h1>
+    <h1>{{ lerning | truncatechars:7 }}</h1>
+    <h1>{{ lerning | wordcount }}</h1>
+
 </body>
 </html>
